@@ -4,6 +4,8 @@ This template demonstrates how to deploy a NodeJS function running on AWS Lambda
 
 ## Usage
 
+`https://app.serverless.com/rollingx`
+
 ### Deployment
 
 In order to deploy the example, you need to run the following command:
