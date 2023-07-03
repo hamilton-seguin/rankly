@@ -1,0 +1,18 @@
+org: rollingx
+app: rankly
+service: rankly
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: eu-central-1
+  stage: prod
+
+functions:
+  rank:
+    handler: index.rankHandler
+    events:
+      - http:
+          path: rank
+          method: get
